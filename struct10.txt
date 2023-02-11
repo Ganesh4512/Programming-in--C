@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+struct Demo
+{
+    int i;
+	fload f;
+	int j;
+	double d;
+
+};
+
+int main()
+{
+    struct Demo obj1;
+	struct Demo obj2;
+	struct Demo obj2;
+	
+	
+	obj1 =11;
+	obj2 =21;
+	obj3 =51;
+	
+	printf("Size of obj2 is :%d\n",sizeof(obj2));
+    printf("Size of obj1 is :%d\n",sizeof(obj1));
+	printf("Size of obj3 is :%d\n",sizeof(obj3));
+    printf("obj1 is :%d\n",sizeof(obj2));
+	
+ return 0;
+ 
+}
